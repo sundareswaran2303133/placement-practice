@@ -1,0 +1,149 @@
+1.#include <stdio.h>
+
+int main() {
+    // Write C code here
+    printf("hellow world ");
+
+    return 0;
+}
+
+2.#include <stdio.h>
+
+
+void main()
+{
+    float cgpa;
+    scanf("%f",&cgpa);
+    printf("the cgpa is:",cgpa);
+}
+
+3.#include <stdio.h>
+
+
+void main()
+{
+    char var;
+    scanf("%c",&var);
+    printf("the var is:",var);
+}
+
+
+
+4.
+#include <stdio.h>
+
+
+void main()
+{
+    int age;
+    scanf("%d",&age);
+    printf("the age is:",age);
+}
+
+
+
+5.// Online C compiler to run C program online
+#include <stdio.h>
+
+void main() {
+     
+     int num1,num2,num3;
+     char ch;
+     float cgpa;
+     scanf("%d%d%d %c %f",&num1,&num3,&num2,&ch,&cgpa);
+     printf("%d %d %d",num1,num2,num3);
+     printf("char is %c",ch);
+     printf("Float is %f",cgpa);
+     
+
+6.#include <stdio.h>
+void main() {
+    int age;
+    char name;
+    float cgpa;
+    scanf("%d %d %c %f",&age,&name,&cgpa);
+    printf("/nthe age:",age);    
+ 
+    printf("/nthe name",name);
+    printf("/nthe cgpa",cgpa);
+    
+}
+
+
+7.include<stdio.h>
+int main()
+{
+    float a=9.699,b=2.99;
+    printf("%.2f\n%.2f",a,b);
+    return 0;
+}
+
+
+8.#include<stdio.h>
+int main()
+{
+    int a=37,b=56;
+    printf("%x\n%x",a,b);
+    return 0;
+}
+
+
+9.
+#include<stdio.h>
+int main()
+{
+    int a=37,b=56;
+    printf("%x\n%x",a,b);
+    return 0;
+}
+
+10.
+
+#include<stdio.h>
+int main()
+{
+    char var='D';
+    printf("%d",var);
+    return 0;
+}
+
+
+11. 
+
+#include<stdio.h>
+int main()
+{
+     int a=10,b=20;
+    printf("%+d\n%+d",a,b);
+    printf("\n%d\n%d",-a,-b);
+
+    return 0;
+}
+
+
+12.
+#include<stdio.h>
+int main()
+{
+     int a=10,b=20,c;
+     c=a;
+    printf("value of c is %d",c);
+    a=b;
+        printf("\nvalue of a is %d",a);
+
+
+    return 0;
+}
+
+
+13.the 16 decimal places
+
+#include<stdio.h>
+int main()
+{
+     int a=100000,b=0.5;
+
+    printf("the 16 decimal placess%.16Lf",b/a);
+
+   return 0;
+}
